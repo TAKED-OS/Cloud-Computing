@@ -1,0 +1,18 @@
+INIT_START Runtime Version: python:3.12.mainlinev2.v86	Runtime Version ARN: arn:aws:lambda:eu-central-1::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534
+START RequestId: ecf42412-d61b-5328-a834-47938e7c48c8 Version: $LATEST
+INIT_START Runtime Version: python:3.12.mainlinev2.v86	Runtime Version ARN: arn:aws:lambda:eu-central-1::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534
+START RequestId: 8b9e99e4-2611-5ab5-ac5a-fa657e76fca8 Version: $LATEST
+[WARNING]	2026-11-25T21:42:10.787Z	ecf42412-d61b-5328-a834-47938e7c48c8	Failed to process SQS message 7b688002-dc65-45b5-be88-0e1e0ec4630a
+END RequestId: ecf42412-d61b-5328-a834-47938e7c48c8
+REPORT RequestId: ecf42412-d61b-5328-a834-47938e7c48c8	Duration: 769.67 ms	Billed Duration: 1165 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	Init Duration: 395.07 ms
+[WARNING]	2026-11-25T21:42:11.361Z	8b9e99e4-2611-5ab5-ac5a-fa657e76fca8	Failed to process SQS message 026df5af-0dbd-46b4-9abb-c1dbff5b8669
+END RequestId: 8b9e99e4-2611-5ab5-ac5a-fa657e76fca8
+REPORT RequestId: 8b9e99e4-2611-5ab5-ac5a-fa657e76fca8	Duration: 649.00 ms	Billed Duration: 1129 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	Init Duration: 479.05 ms
+START RequestId: de588486-3b73-588a-b2bc-e70763c4aeab Version: $LATEST
+[WARNING]	2026-11-25T21:43:21.620Z	de588486-3b73-588a-b2bc-e70763c4aeab	Failed to process SQS message 7b688002-dc65-45b5-be88-0e1e0ec4630a
+END RequestId: de588486-3b73-588a-b2bc-e70763c4aeab
+REPORT RequestId: de588486-3b73-588a-b2bc-e70763c4aeab	Duration: 153.43 ms	Billed Duration: 154 ms	Memory Size: 128 MB	Max Memory Used: 69 MB
+START RequestId: 9e411069-defd-55a4-b9bd-73e8864a6d7e Version: $LATEST
+[WARNING]	2026-11-25T21:43:22.200Z	9e411069-defd-55a4-b9bd-73e8864a6d7e	Failed to process SQS message 026df5af-0dbd-46b4-9abb-c1dbff5b8669
+END RequestId: 9e411069-defd-55a4-b9bd-73e8864a6d7e
+REPORT RequestId: 9e411069-defd-55a4-b9bd-73e8864a6d7e	Duration: 134.84 ms	Billed Duration: 135 ms	Memory Size: 128 MB	Max Memory Used: 69 MB
