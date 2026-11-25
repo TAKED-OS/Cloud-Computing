@@ -10,7 +10,7 @@
 
 Цель — развернуть приватную RDS PostgreSQL, проверить доступ с EC2, репликацию и восстановление к выбранному моменту. Сохранены подтверждённые ответы AWS API и фактический вывод `psql` с учебного EC2. Скриншоты показывают эти данные, открытые локально в браузере.
 
-**Отклонения от Moodle.** С согласия пользователя применён AWS Free Plan. Для этого тарифа AWS показывает шаблон Free tier. Ранее `CreateDBInstance` с `BackupRetentionPeriod=7` вернул `FreeTierRestrictionError`. В этом запуске основной экземпляр настроен с **1 днём** хранения автоматических бэкапов (`BackupRetentionPeriod=1`). Тариф не менялся. [Задание Moodle](https://elearning.usm.md/mod/assign/view.php?id=344592) · [Документация RDS о шаблонах](https://docs.aws.amazon.com/AmazonRDS/latest/gettingstartedguide/create-instance-overview.html)
+**Отклонения от Moodle.** Работа выполнена на AWS Free Plan. Для этого тарифа AWS показывает шаблон Free tier. Ранее `CreateDBInstance` с `BackupRetentionPeriod=7` вернул `FreeTierRestrictionError`. В этом запуске основной экземпляр настроен с **1 днём** хранения автоматических бэкапов (`BackupRetentionPeriod=1`). Тариф не менялся. [Задание Moodle](https://elearning.usm.md/mod/assign/view.php?id=344592) · [Документация RDS о шаблонах](https://docs.aws.amazon.com/AmazonRDS/latest/gettingstartedguide/create-instance-overview.html)
 
 ## 1. Размещение и доступ
 
@@ -58,3 +58,5 @@ CloudWatch вернул значения `ReplicaLag` `-1` и `125` секунд
 ## Завершение
 
 После проверки отключили защиту от удаления основной базы. Основная база, реплика и восстановленная копия удалены без финальных снимков и без сохранения автоматических бэкапов. Учебный EC2, группа подсетей RDS, группы безопасности и временная приватная подсеть удалены.
+
+[Продвинутый уровень](Advanced.md)
