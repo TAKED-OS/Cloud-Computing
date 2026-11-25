@@ -322,3 +322,5 @@ TimeCapsule, webserver и прежний S3-бакет не относятся �
 - [Версионирование S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
 - [Примеры lifecycle](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html)
 - [Подписанные URL](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html)
+
+[Продвинутый уровень](Advanced.md)
